@@ -11,5 +11,5 @@ npm i
 npm run serve
 ```
 
-`frontend/index.js` will now work as the entry point for `webpack` and the
+`frontend/src/index.js` will now work as the entry point for `webpack` and the
 resulting bundle will be served from `http://localhost:8081/bundle.js`.
