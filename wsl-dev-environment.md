@@ -21,6 +21,9 @@ which in turn requires
 On the other hand, this *might* be required only if you use Windows Terminal - I
 ended up using ConEmu instead.
 
+If you're having problem with `root` owning all the files and `chown` doing jack
+all, [this answer](https://askubuntu.com/a/1065279) will likely help.
+
 
 ## ConEmu
 
