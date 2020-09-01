@@ -9,8 +9,11 @@ a few google searches.
 ```
 git config --global user.name "Antti Mäki"
 git config --global user.email "..."
-git config --global alias.s status
 git config --global alias.d diff
+git config --global alias.l 'log -n 20 --oneline'
+git config --global alias.m 'checkout master'
+git config --global alias.r 'rebase -i master --autostash'
+git config --global alias.s status
 git config --global alias.caan 'commit -a --amend --no-edit'
 ```
 

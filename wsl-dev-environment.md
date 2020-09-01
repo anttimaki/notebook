@@ -35,6 +35,12 @@ stuff pretty much works out-of-the-box. You might want to
 or set WSL as the default task for new console and pick a nice color theme in
 the settings.
 
+**Note**: a Windows feature update seemed to break things, so as suggested
+[here](https://github.com/Maximus5/ConEmu/issues/1930#issuecomment-524413383),
+using the following as the `{Bash::bash}` task command instead of the one in
+above link might solve ConEmu startup issues:
+
+`set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" & wsl.exe ~ -cur_console:pm:/mnt`
 
 ## Tmux
 
