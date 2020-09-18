@@ -11,6 +11,7 @@ git config --global user.name "Antti Mäki"
 git config --global user.email "..."
 git config --global alias.d diff
 git config --global alias.l 'log -n 20 --oneline'
+git config --global alias.lb 'log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset" --abbrev-commit --date=relative'
 git config --global alias.m 'checkout master'
 git config --global alias.r 'rebase -i master --autostash'
 git config --global alias.s status
